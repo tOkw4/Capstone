@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function updateCharts(spamDetected, nonSpamDetected) {
         const data = [spamDetected, nonSpamDetected];
-        const labels = ['Mail', 'Url'];
+        const labels = ['Phishing', 'Safe'];
     
         // Destroy previous instances of charts to avoid overlap
         if (pieChart) pieChart.destroy();
